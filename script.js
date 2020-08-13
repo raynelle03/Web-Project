@@ -5,9 +5,9 @@
       return;
     }
     
-    var name = document.getElementById("name").value;
-    var comment = document.getElementById("comment").value;
-    var combinedComment = "<strong>" + name + "</strong><br>" +comment
+    const name = document.getElementById("name").value;
+    const comment = document.getElementById("comment").value;
+    const combinedComment = "<strong>" + name + "</strong><br>" +comment
 
     addDiv('userComments', combinedComment, {
       'class': 'final',
@@ -18,9 +18,9 @@
   }
 
   function addDiv(parent_div, content, attrs) {
-    var div = document.createElement('div');
-    var space = document.createElement('br');
-    var parent = document.getElementById(parent_div);
+    const div = document.createElement('div');
+    const space = document.createElement('br');
+    const parent = document.getElementById(parent_div);
   
     for (var key in attrs) {
       if (attrs.hasOwnProperty(key)) {
