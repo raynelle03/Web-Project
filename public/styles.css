@@ -9,6 +9,7 @@ body {
 h1 {
   color: wheat;
   font-family: 'Courier New', Courier, monospace;
+  align-content: left;
 }
 
 a:link {
@@ -24,6 +25,11 @@ a:hover {
   text-shadow: 0 0 5px #ff0000;
 }
 
+.grocery {
+  width: 200px;
+  height: 150px;
+}
+
 .grow:hover
 {
    -webkit-transform: scale(1.3);
@@ -33,6 +39,7 @@ a:hover {
 
 table {
   border-collapse:separate;
+  width: 50%;
   border:solid rgb(252, 251, 251) 1px;
   border-radius:6px;
   -moz-border-radius:6px;
@@ -42,7 +49,13 @@ table {
 
 td, th {
   border: none;
-  text-align: left
+  text-align: left;
+  vertical-align: top;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
 }
 
 .comments {
