@@ -27,6 +27,7 @@
         div.setAttribute(key, attrs[key]);
       }
     }
+
     div.innerHTML = content;
     if (parent) {
       parent.appendChild(div);
